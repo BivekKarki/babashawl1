@@ -15,11 +15,10 @@ const Navbar = () => {
 
   const navItems = [
     { id: 1, text: 'Home', path: '/' },
-    { id: 2, text: 'Services', path: '/services' },
-    { id: 3, text: 'About', path: '/about-us' },
-    { id: 4, text: 'Project', path: '/projects' },
-    { id: 5, text: 'Blog', path: '/blogs' },
-    { id: 6, text: 'Contact', path: '/contact-us' },
+    { id: 2, text: 'Collections', path: '/collections' },
+    { id: 3, text: 'Services', path: '/services' },
+    { id: 4, text: 'About Us', path: '/AboutUs' },
+    { id: 5, text: 'Contact Us', path: '/contact-us' },
   ];
 
   const handleClick = (path) => {
@@ -45,7 +44,7 @@ const Navbar = () => {
       {/* Desktop Navigation */}
       <ul className={`hidden sm:flex ${nav ? 'overflow-x-hidden' : ''}`}>
         {navItems.map((item) =>
-          item.text === 'Contact' ? (
+          item.text === 'Contact Us' ? (
             <li
               onClick={() => navigate('/contact-us')}
               key={item.id}
