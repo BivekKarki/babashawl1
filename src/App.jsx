@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Index from './views/Index'
+import Navbar from './components/Navbar'
 
 function App() {
   
@@ -12,9 +13,8 @@ function App() {
   return (
   
   <>
-  <p className='text-red-600 w-10 m-auto'> Hellooo</p>
       <BrowserRouter>
-      {/* <Navbar /> */}
+      <Navbar />
         <Routes>
           <Route path="/" element={<Index />} />
         </Routes>

@@ -1,9 +1,10 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 
 const Index = () => {
   return (
     <div>
-      <p className='text-red-500 bg-green-600'>Hello red</p>
+      INdex page
     </div>
   )
 }
