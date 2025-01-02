@@ -5,6 +5,7 @@ import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Index from './views/Index'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 function App() {
   
@@ -18,7 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Index />} />
         </Routes>
-      
+      <Footer />
       </BrowserRouter>
       </>
   )
