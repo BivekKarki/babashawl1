@@ -5,8 +5,8 @@ const ContactUs = () => {
   return (
     <div className="w-1/2 flex flex-col mx-auto items-center my-10 py-5 border-2 border-solid border-gray-300 rounded-xl">
       <h2 className="text-3xl font-bold my-5 underline text-amber-700">Contact Us</h2>
-      <div className="flex w-full h-full gap-3">
-        <div className="w-3/5 flex flex-col justify-start">
+      <div className="flex md:flex-row flex-col w-full h-full gap-3">
+        <div className="w-full md:w-3/5 flex flex-col justify-start">
           <div className="flex flex-col gap-2 mx-10 mb-4">
             <label htmlFor="name">Name</label>
             <input 
@@ -51,7 +51,7 @@ const ContactUs = () => {
           </div>
         </div>
 
-        <div className="w-2/5 flex flex-col justify-start m-2">
+        <div className="w-full md:w-2/5 flex flex-col justify-start m-2">
           <div className="flex flex-col gap-2 mx-10 mb-4">
             <div className="flex gap-2">
               <p>Byashi, Bhaktapur, Nepal</p>
