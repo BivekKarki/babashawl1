@@ -3,7 +3,9 @@ import React from 'react'
 
 const ContactUs = () => {
   return (
-    <div className="w-1/2 flex flex-col mx-auto items-center my-10 py-5 border-2 border-solid border-gray-300 rounded-xl">
+    <>
+    <div className='mx-4 sm:mx-0'>
+    <div className="w-full md:w-1/2 flex flex-col mx-auto items-center my-10 py-5 border-2 border-solid border-gray-300 rounded-xl">
       <h2 className="text-3xl font-bold my-5 underline text-amber-700">Contact Us</h2>
       <div className="flex md:flex-row flex-col w-full h-full gap-3">
         <div className="w-full md:w-3/5 flex flex-col justify-start">
@@ -84,6 +86,9 @@ const ContactUs = () => {
         </div>
       </div>
     </div>
+    </div>
+    </>
+    
   )
 }
 
