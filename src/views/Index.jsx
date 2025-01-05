@@ -1,11 +1,14 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import HeroSection from './homepage/HeroSection'
+import SeasonCollections from './homepage/CollectionSection'
 
 const Index = () => {
   return (
-    <div>
+    <div className=''>
       <HeroSection />
+
+      <SeasonCollections />
     </div>
   )
 }
