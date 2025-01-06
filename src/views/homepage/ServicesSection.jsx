@@ -28,7 +28,7 @@ const OurServices = () => {
     <div className="py-8 mx-4 md:mx-16">
       <h2 className="text-3xl font-bold text-center mb-8">Our Services</h2>
       <div className="flex flex-wrap justify-center gap-6">
-        {collections.map((item) => (
+        {services.map((item) => (
           <div
             key={item.id}
             className="flex flex-col items-center w-64 shadow-lg rounded-lg overflow-hidden bg-white"

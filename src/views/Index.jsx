@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import HeroSection from './homepage/HeroSection'
-import SeasonCollections from './homepage/ServicesSection'
+import ServicesSection from './homepage/ServicesSection'
 import OurProducts from './homepage/OurProduct'
 import AboutSection from './homepage/AboutSection'
 
