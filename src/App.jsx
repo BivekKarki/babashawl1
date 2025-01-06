@@ -7,6 +7,9 @@ import Index from './views/Index'
 import Navbar from './components/Navbar'
 import ContactUs from './views/ContactUs'
 import Footer from './components/Footer'
+import ShawlProducts from './views/productpage/Shawls';
+// import Scarfs from './Scarfs';
+import ProductDetail from './views/productpage/ProductDetail';
 
 function App() {
   
@@ -19,6 +22,9 @@ function App() {
       <Navbar />
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/shawls" element={<ShawlProducts />} />
+          {/* <Route path="/scarfs" element={<Scarfs />} /> */}
+          <Route path="/:cat/:id" element={<ProductDetail />} />
           <Route path="/contact-us" element={<ContactUs />} />
         </Routes>
       <Footer />
