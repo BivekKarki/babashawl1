@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import HeroSection from './homepage/HeroSection'
-import SeasonCollections from './homepage/CollectionSection'
+import SeasonCollections from './homepage/ServicesSection'
 import OurProducts from './homepage/OurProduct'
 import AboutSection from './homepage/AboutSection'
 
@@ -12,7 +12,7 @@ const Index = () => {
       <HeroSection />
       <OurProducts />
 
-      <SeasonCollections />
+      <ServicesSection />
       <AboutSection />
     </div>
   )
