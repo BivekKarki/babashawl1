@@ -26,6 +26,7 @@ function App() {
           {/* <Route path="/scarfs" element={<Scarfs />} /> */}
           <Route path="/:cat/:id" element={<ProductDetail />} />
           <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/product/:id" element={<ProductDetail />} />
         </Routes>
       <Footer />
       </BrowserRouter>
