@@ -7,7 +7,7 @@ import AboutSection from './homepage/AboutSection'
 
 const Index = () => {
   return (
-    <div className=''>
+    <div className='font-poppins '>
 
       <HeroSection />
       <OurProducts />
