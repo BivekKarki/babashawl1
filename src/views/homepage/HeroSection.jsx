@@ -19,10 +19,12 @@ const HeroSection = () => {
           {/* <button className="bg-white text-black py-2 px-6 rounded font-semibold hover:bg-gray-200 transition">
             Explore
           </button> */}
+          </button> */}
         </div>
       </div>
 
       {/* Image Container */}
+      <div className="">
       <div className="">
         <img
           src="https://s3-alpha-sig.figma.com/img/3792/894d/6f8aa076c8032a39c43e0d05be04fc48?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JV1hd7hxF2fXLf1iAGR7kggUZtIgm7hGIWT~Xa2V6W9wgjBy4TAuRFFN-i9xMdmwlJvospqfSnQXcsgBgu4v8uFWqgM8D3bNNnCRL9WkxMnx6oxnrl7Lc7XH2nmlX4cwJLIWInIEaQh7~Aa2b~4SmdP0Z~iLTemSeUF0RMDNkmjnstUFEqBCm3MeKDbnxv4~IkOwHBgwKNETi5hb4PePxd-hKcTRbGCJiH1JtfXK49qlyEexRMHir2qxsuZOslNIwgJfqTK7vUyv7f9unjPp8xF1~zEtxR-iZABJPEZLcz8Uaf96-fNeGs~Xu-5Dv00nJMeqjmA4Ii0~jpwNzOaosg__"
