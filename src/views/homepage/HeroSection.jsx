@@ -16,10 +16,7 @@ const HeroSection = () => {
           <button className="bg-[#9B7E5C] text-white py-3 px-6 rounded font-semibold hover:bg-[#7a4f31] transition">
             View Products
           </button>
-          {/* <button className="bg-white text-black py-2 px-6 rounded font-semibold hover:bg-gray-200 transition">
-            Explore
-          </button> */}
-          </button> */}
+          
         </div>
       </div>
 
@@ -34,9 +31,9 @@ const HeroSection = () => {
       </div>
 
     </div>
-
+      </div>
     </div>
   )
 }
 
-export default HeroSection
+export default HeroSection;
