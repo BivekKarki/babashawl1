@@ -22,8 +22,8 @@ const OurProducts = () => {
   ];
 
   return (
-    <div className="py-8 px-4 md:px-16 bg-gray-200">
-      <h2 className="text-3xl font-bold mb-6 text-black">Our Products</h2>
+    <div className="py-8 px-4 md:py-24 md:px-16 bg-white">
+      <h2 className="text-center text-3xl font-bold mb-6 text-black">Our Products</h2>
       <div className="flex flex-wrap justify-between gap-6">
         {products.map((product) => (
           <div
