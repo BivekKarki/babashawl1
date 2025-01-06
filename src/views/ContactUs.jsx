@@ -97,7 +97,7 @@ const ContactUs = () => {
                 </div>
               </div>
 
-              <div className="flex gap-4">
+              {/* <div className="flex gap-4">
                 <LiaFaxSolid className="w-6 h-6 sm:w-8 sm:h-8" />
                 <div className="flex flex-col ">
                   <span className=" text-base font-bold leading-tight tracking-tight">
@@ -107,7 +107,7 @@ const ContactUs = () => {
                     03 5432 1234
                   </Link>
                 </div>
-              </div>
+              </div> */}
 
               <div className="flex gap-4">
                 <MdOutlineEmail className="w-6 h-6 sm:w-8 sm:h-8" />
