@@ -7,6 +7,7 @@ import Index from './views/Index'
 import Navbar from './components/Navbar'
 import ContactUs from './views/ContactUs'
 import Footer from './components/Footer'
+import ProductDetail from './views/product/ProductDetails'
 
 function App() {
   
@@ -20,6 +21,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/product/:id" element={<ProductDetail />} />
         </Routes>
       <Footer />
       </BrowserRouter>

@@ -16,8 +16,8 @@ const Footer = () => {
                 <div className="mb-6 md:mb-0 flex flex-col  lg:col-span-3">
                 <div><img src='/images/LogoName.png' alt='' className='w-1/3 ' /><h2 className="text-3xl font-bold">BabaShawl</h2></div>
                 <p className=" mt-4 text-base capitalize font-normal">
-                    Partner with us, and let&apos;s innovate together. By choosing Kalodhunga Creation, 
-                    you are not just getting a software development partner.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet 
+                    lacinia nulla ut laoreet. Quisque ultricies et tortor nec laoreet. 
                     </p>
                     <div className="flex mt-8 space-x-6 ">
                     <Link href="https://www.facebook.com/kalodhungasolution"  className="hover:text-KPrimary"  target="_blank" rel="noreferrer">
