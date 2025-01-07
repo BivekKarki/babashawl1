@@ -1,26 +1,45 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 
 const ProductDetail = () => {
   const location = useLocation();
   const product = location.state;
 
+  const [selectedImage, setSelectedImage] = useState(product.images[0]);
+
   console.log(product);
 
   return (
-    <div className="py-8 px-4 md:px-16 bg-gray-50">
+    <div className="px-4 md:px-24 py-24  bg-gray-50">
       <div className="flex flex-col md:flex-row gap-6">
         <div className="flex-1">
-          <div className="grid grid-cols-2 gap-4">
-            {product?.images.map((image, index) => (
-              <img
-                key={index}
-                src={image}
-                alt={`${product?.name} - ${index + 1}`}
-                className="w-full h-auto object-cover rounded-lg shadow-md"
-              />
-            ))}
-          </div>
+
+        <div className="flex flex-col items-center">
+      <div className="w-full h-60 md:w-80 md:h-80 max-w-md">
+        <img
+          src={selectedImage}
+          alt="Selected Product"
+          className="w-full h-full object-contain rounded-lg shadow-md"
+        />
+      </div>
+      {/* ======================== thumbnail ====================================== */}
+      <div className="flex mt-4 gap-4">
+        {product?.images.map((image, index) => (
+          <img
+            key={index}
+            src={image}
+            alt={`Thumbnail ${index + 1}`}
+            className={`w-16 h-16 md:w-20 md:h-20 object-cover rounded-lg cursor-pointer border-2 ${
+              selectedImage === image
+                ? "border-blue-500"
+                : "border-gray-200"
+            }`}
+            onClick={() => setSelectedImage(image)}
+          />
+        ))}
+      </div>
+    </div>
+
         </div>
 
         <div className="flex-1">
