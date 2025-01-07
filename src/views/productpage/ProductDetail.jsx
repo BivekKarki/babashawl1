@@ -26,14 +26,14 @@ const ProductDetail = () => {
         <div className="flex-1">
           <h1 className="text-3xl font-bold text-gray-800 mb-4">{product?.name}</h1>
           <div className="mb-4">
-            {/* {product?.tags.map((tag, index) => (
+            {product?.tags.map((tag, index) => (
               <span
                 key={index}
                 className="text-sm font-medium text-green-700 bg-green-100 px-2 py-1 rounded mr-2"
               >
                 {tag}
               </span>
-            ))} */}
+            ))}
           </div>
           <p className="text-gray-600 mb-6">{product?.description}</p>
           <div className="bg-white p-4 border rounded-lg shadow-md">
