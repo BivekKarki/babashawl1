@@ -35,10 +35,14 @@ const ProductDetail = () => {
               </span>
             ))}
           </div>
-          <p className="text-gray-600 mb-6">{product?.description}</p>
           <div className="bg-white p-4 border rounded-lg shadow-md">
-            <h3 className="text-lg font-semibold mb-2">Material</h3>
-            <p className="text-gray-700">{product?.material}</p>
+            <div className='flex items-center mb-4'>
+              <h3 className="text-lg font-semibold ">Material : </h3>
+              <p className="text-gray-700 pl-2"> {product?.material}</p>
+            </div>
+            
+            <h3 className="text-lg font-semibold">Description:</h3>
+            <p className="text-gray-700">{product?.description}</p>
           </div>
         </div>
       </div>
