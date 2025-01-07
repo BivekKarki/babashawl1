@@ -8,7 +8,7 @@ import Navbar from './components/Navbar'
 import ContactUs from './views/ContactUs'
 import Footer from './components/Footer'
 import ShawlProducts from './views/productpage/Shawls';
-// import Scarfs from './Scarfs';
+import ScarfProducts from './views/productpage/Scarfs';
 import ProductDetail from './views/productpage/ProductDetail';
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/shawls" element={<ShawlProducts />} />
-          {/* <Route path="/scarfs" element={<Scarfs />} /> */}
+          <Route path="/scarfs" element={<ScarfProducts />} />
           <Route path="/:cat/:id" element={<ProductDetail />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/product/:id" element={<ProductDetail />} />
