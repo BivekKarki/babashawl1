@@ -22,13 +22,13 @@ const OurProducts = () => {
   ];
 
   return (
-    <div className="py-8 px-4 md:py-24 md:px-16 bg-white">
+    <div className="py-8 px-4 md:px-24 md:py-16 bg-white">
       <h2 className="text-center text-3xl font-bold mb-6 text-black">Our Products</h2>
-      <div className="flex flex-wrap justify-between gap-6">
+      <div className="flex flex-col md:flex-row justify-between gap-12">
         {products.map((product) => (
           <div
             key={product.id}
-            className="flex flex-col w-full md:w-[48%] bg-white shadow-lg rounded-lg overflow-hidden cursor-pointer hover:shadow-xl transition-shadow"
+            className="flex flex-col w-full md:w-1/2 bg-white shadow-lg rounded-lg overflow-hidden cursor-pointer hover:shadow-xl transition-shadow"
             onClick={() => navigate(product.route)}
           >
             <img

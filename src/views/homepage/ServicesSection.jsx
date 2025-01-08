@@ -25,13 +25,13 @@ const OurServices = () => {
   ];
 
   return (
-    <div className="py-8 mx-4 md:mx-16">
+    <div className="px-4 md:px-24 py-12 ">
       <h2 className="text-3xl font-bold text-center mb-8">Our Services</h2>
-      <div className="flex flex-wrap justify-center gap-6">
+      <div className="flex flex-wrap justify-center md:justify-between gap-8">
         {services.map((item) => (
           <div
             key={item.id}
-            className="flex flex-col items-center w-64 shadow-lg rounded-lg overflow-hidden bg-white"
+            className="flex flex-col items-center w-72 shadow-lg rounded-lg overflow-hidden bg-white"
           >
             <img
               src={item.image}
