@@ -22,19 +22,20 @@ const OurProducts = () => {
   ];
 
   return (
-    <div className="py-8 px-4 md:px-24 md:py-16 bg-white">
+    <div  id='products' className='py-12'>
+    <div className="py-8 px-4 md:px-32 md:py-16 bg-white">
       <h2 className="text-center text-3xl font-bold mb-6 text-black">Our Products</h2>
-      <div className="flex flex-col md:flex-row justify-between gap-12">
+      <div className="flex flex-col md:flex-row justify-center gap-8 md:gap-12">
         {products.map((product) => (
           <div
             key={product.id}
-            className="flex flex-col w-full md:w-1/2 bg-white shadow-lg rounded-lg overflow-hidden cursor-pointer hover:shadow-xl transition-shadow"
+            className="flex flex-col w-full md:w-1/3 bg-white shadow-lg rounded-lg overflow-hidden cursor-pointer hover:shadow-xl transition-shadow"
             onClick={() => navigate(product.route)}
           >
             <img
               src={product.image}
               alt={product.title}
-              className="h-48 w-full object-cover"
+              className="h-72 w-full object-cover"
             />
             <div className="p-4">
               <h3 className="text-xl font-semibold">{product.title}</h3>
@@ -43,6 +44,7 @@ const OurProducts = () => {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 };
