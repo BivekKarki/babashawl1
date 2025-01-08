@@ -13,11 +13,19 @@ const Navbar = () => {
     setNav(!nav);
   };
 
+  const handleScroll = (id, path) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start',  });
+    }
+    setNav(false);
+  };
+
   const navItems = [
-    { id: 1, text: 'Home', path: '/' },
-    { id: 2, text: 'Products', path: '/products' },
-    { id: 3, text: 'Services', path: '/services' },
-    { id: 4, text: 'About Us', path: '/about-us' },
+    { id: "home", text: 'Home', path: '/' },
+    { id: "products", text: 'Products', path: '/products' },
+    { id: "services", text: 'Services', path: '/services' },
+    { id: "about-us", text: 'About Us', path: '/about-us' },
     { id: 5, text: 'Contact Us', path: '/contact-us' },
   ];
 
@@ -30,14 +38,18 @@ const Navbar = () => {
     <div className='z-50 mx-auto w-full sm:px-16 px-4 py-0 flex justify-between sticky top-0 bg-white shadow-customShadow' ref={dropdownRef}>
       <div
         className='flex items-center py-2'
-        onClick={() => {
-          navigate('/');
-        }}
+        onClick={() => handleScroll('home')}
+        // onClick={() => {
+        //   navigate('/');
+        // }}
       >
         <img
           src='/images/Logo.png'
+          // src='https://gayatripashmina.com/wp-content/uploads/2021/04/cropped-Header-LOGO.png'
+          src='/images/Logo.png'
           alt='Logo'
           className='w-10 h-10 sm:w-52 sm:h-14 max-w-52 hover:cursor-pointer'
+          className='w-20 h-20 sm:w-14 sm:h-14 max-w-14 hover:cursor-pointer'
         />
       </div>
 
@@ -47,6 +59,7 @@ const Navbar = () => {
           item.text === 'Contact Us' ? (
             <li
               onClick={() => navigate('/contact-us')}
+              // onClick={() => handleScroll(item.id)}
               key={item.id}
               className='sm:px-4 sm:py-2 bg-KSecondary text-white hover:bg-KPrimary rounded-xl mx-2 my-auto cursor-pointer duration-300 flex items-center'
             >
@@ -55,7 +68,8 @@ const Navbar = () => {
           ) : (
             <li
               key={item.id}
-              onClick={() => handleClick(item.path)}
+              // onClick={() => handleClick(item.path)}
+              onClick={() => handleScroll(item.id)}
               className={`sm:px-1 md:px-4 md:py-2 mx-2 my-auto cursor-pointer duration-300 flex items-center text-base font-medium leading-normal tracking-wide
               ${location.pathname === item.path ? 'text-KPrimary underline underline-offset-4' : 'text-slate-900 hover:text-yellow-500'}`}
             >

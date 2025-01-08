@@ -2,7 +2,7 @@ import React from 'react'
 
 const HeroSection = () => {
   return (
-    <div className=''>
+    <div id='home'>
       <div className="flex flex-col sm:flex-row gap-4 md:gap-0 justify-between items-center bg-[#d2b48c] px-4 md:px-24 py-8 md:py-0  relative">
         {/* Text Container */}
         <div className=" md:w-2/3 ">
