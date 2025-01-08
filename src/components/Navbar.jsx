@@ -35,9 +35,9 @@ const Navbar = () => {
         }}
       >
         <img
-          src='https://gayatripashmina.com/wp-content/uploads/2021/04/cropped-Header-LOGO.png'
+          src='/images/Logo.png'
           alt='Logo'
-          className='w-10 h-10 sm:w-14 sm:h-14 max-w-14 hover:cursor-pointer'
+          className='w-10 h-10 sm:w-52 sm:h-14 max-w-52 hover:cursor-pointer'
         />
       </div>
 
