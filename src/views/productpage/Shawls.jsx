@@ -15,7 +15,7 @@ function ShawlProducts() {
         '/images/check-shawl-1.jpg',
         '/images/check-shawl-3.jpg',
       ],
-      description: 'A cozy scarf for chilly winter days.',
+      description: 'A large shawl with check pattern for chilly winter days.',
       material: 'Wool',
     },
     {
@@ -28,7 +28,7 @@ function ShawlProducts() {
         // 'https://th.bing.com/th/id/OIP.vpjuSKE3fGHs6B5oIte4XgHaJ4?w=660&h=880&rs=1&pid=ImgDetMain',
         // 'https://i.etsystatic.com/5970624/r/il/8d7140/1522902789/il_fullxfull.1522902789_7wky.jpg',
       ],
-      description: 'A lightweight hat to keep you cool during summer.',
+      description: 'A checkerd pattern shawl to keep you cool during summer.',
       material: 'Cotton',
     },
     {
@@ -41,7 +41,7 @@ function ShawlProducts() {
         '/images/nk-j-gold-2.jpg',
         // 'https://i.etsystatic.com/5970624/r/il/8d7140/1522902789/il_fullxfull.1522902789_7wky.jpg',
       ],
-      description: 'A lightweight hat to keep you cool during summer.',
+      description: 'A flower patterned shawl with gold colored threads in the flower pattern.',
       material: 'Cotton',
     },
     {
@@ -54,7 +54,7 @@ function ShawlProducts() {
         '/images/nk-j-2.jpg',
         '/images/nk-j-3.jpg',
       ],
-      description: 'A lightweight hat to keep you cool during summer.',
+      description: 'A flower patterned shawl to keep you cool during summer.',
       material: 'Cotton',
     },
     {
@@ -67,7 +67,7 @@ function ShawlProducts() {
         // '/images/nk-j-2.jpg',
         // 'https://i.etsystatic.com/5970624/r/il/8d7140/1522902789/il_fullxfull.1522902789_7wky.jpg',
       ],
-      description: 'A lightweight hat to keep you cool during summer.',
+      description: 'A flower patterned shawl to keep you cool during summer.',
       material: 'Cotton',
     },
     {
@@ -80,7 +80,7 @@ function ShawlProducts() {
         '/images/jumbo-2.jpg',
         '/images/jumbo-3.jpg',
       ],
-      description: 'A lightweight hat to keep you cool during summer.',
+      description: 'A large and thick showl to keep you warm during the chilliest winter.',
       material: 'Cotton',
     },
   ];

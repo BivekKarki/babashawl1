@@ -30,7 +30,7 @@ function ScarfProducts() {
       material: 'Cotton',
     },
     {
-      id: 2,
+      id: 3,
       name: 'Embroidery Scarf',
       tags: ['summer'],
       images: [
