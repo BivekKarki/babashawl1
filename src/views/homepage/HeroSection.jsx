@@ -7,7 +7,8 @@ const HeroSection = () => {
         {/* Text Container */}
         <div className=" md:w-2/3 ">
           <h1 className="text-4xl md:text-7xl font-bold leading-tight mb-4">
-            <span className='text-4xl md:text-8xl font-semibold'>Shawls</span> <br />for Every Season
+            {/* <span className='text-4xl md:text-8xl font-semibold'>Shawls</span> <br />for Every Season */}
+            Largest Manufacturer of Shawls and Scarfs in Nepal
           </h1>
           <p className="text-gray-700 text-base md:text-lg mb-6 md:w-3/4">
             Fashion plays an important role in people's lives. The way people dress expresses their individuality and personality. Supplying the finest shawls to retailers across the country.

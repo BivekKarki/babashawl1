@@ -7,28 +7,37 @@ function ScarfProducts() {
   const scarfProducts = [
     {
       id: 1,
-      name: 'Winter Scarf',
+      name: 'Check Scarf',
       tags: ['winter'],
       images: [
-        'https://th.bing.com/th/id/OIP.7Eud56b-KqLkVoMsSSh5NAHaHZ?rs=1&pid=ImgDetMain',
-        'https://th.bing.com/th/id/OIP.ZS-Vp_wqN78V8p8wmFrhZgHaIc?w=800&h=912&rs=1&pid=ImgDetMain',
-        'https://th.bing.com/th/id/OIP.vpjuSKE3fGHs6B5oIte4XgHaJ4?w=660&h=880&rs=1&pid=ImgDetMain',
-        'https://i.etsystatic.com/5970624/r/il/8d7140/1522902789/il_fullxfull.1522902789_7wky.jpg',
+        '/images/check-scarf-1.jpg',
+        '/images/check-scarf.jpg',
       ],
       description: 'A cozy scarf for chilly winter days.',
       material: 'Wool',
     },
     {
       id: 2,
-      name: 'Summer Hat',
+      name: 'Sitara Scarf',
       tags: ['summer'],
       images: [
-        'https://th.bing.com/th/id/OIP.FUcqXO-R3cKXDMojESx2KgHaFU?rs=1&pid=ImgDetMain',
-        'https://th.bing.com/th/id/OIP.Fbnkilv75GZ_-b4I6sHaewHaHa?w=500&h=500&rs=1&pid=ImgDetMain',
-        'https://th.bing.com/th/id/R.4c6bf5bdd3fc1551de783d0d5e2a4db5?rik=%2f%2fN%2fyVaiCv5Miw&pid=ImgRaw&r=0',
-        'https://th.bing.com/th/id/OIP.Gl52f-w9DSOfP6vfoGo_IAAAAA?w=312&h=416&rs=1&pid=ImgDetMain',
+        '/images/sitara-scarf.jpg',
+        '/images/sitara-scarf-1.jpg',
+        '/images/sitara-scarf-2.jpg',
+        '/images/sitara-scarf-3.jpg',
       ],
-      description: 'A lightweight hat to keep you cool during summer.',
+      description: 'A lightweight scarf to keep you cool during summer.',
+      material: 'Cotton',
+    },
+    {
+      id: 2,
+      name: 'Embroidery Scarf',
+      tags: ['summer'],
+      images: [
+        '/images/Emb-scarf.jpg',
+        '/images/Emb-scarf-1.jpg',
+      ],
+      description: 'A lightweight scarf to keep you cool during summer.',
       material: 'Cotton',
     },
 

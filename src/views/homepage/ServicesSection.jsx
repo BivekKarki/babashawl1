@@ -25,7 +25,7 @@ const OurServices = () => {
   ];
 
   return (
-    <div id='services' className='py-12'>
+    <div id='services' className='md:py-12'>
     <div className="px-4 md:px-24 py-12 bg-[#d2b48c]">
       <h2 className="text-3xl font-bold text-center mb-8">Our Services</h2>
       <div className="flex flex-wrap justify-center md:justify-between gap-8">
